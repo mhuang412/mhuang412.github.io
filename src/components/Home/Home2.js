@@ -9,9 +9,13 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+import DataSciIcons from "./Techstack2";
+import Particle from "../Particle";
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
+      <Particle />
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -19,38 +23,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm an engineering student at <b className="purple"> Princeton 
+              University </b> with interests in <b className="purple">statistics</b>, 
+              <b className="purple"> data science</b>, and <b className="purple">
+              economics</b>.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              My main fields of research are in <b className="purple">machine learning </b>
+              and <b className="purple">physics </b> &nbsp;
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple">(astrophysics & nanotechnology)</b>. 
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+              I also enjoy <b className="purple">design</b> and Android 
+              <b className="purple"> app development</b>.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+              Besides coding, I love composing, swimming, and baking!
+            </p>            
+          
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -58,6 +50,21 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
+        <br />
+        <br />
+        <br />
+        
+        <h1 className="project-heading">
+          Technical <strong className="purple">Skills </strong>
+        </h1>
+        <br />
+        <h1 className="project-subheading">
+          <strong className="purple">Data Science & Analysis </strong>
+        </h1>
+
+        <DataSciIcons />
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
