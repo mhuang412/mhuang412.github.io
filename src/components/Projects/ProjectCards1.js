@@ -3,11 +3,11 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
 
-function ProjectCards(props) {
+function ProjectCards1(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body style={{textAlign: 'center'}}>
+      <Card.Body>
         <Card.Title className="project-card-title">
           {props.title}
         </Card.Title>
@@ -18,20 +18,10 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "center" }}>
           {props.description}
         </Card.Text>
-      
-        <Button variant="primary" href={props.link} target="_blank">
-          <BiLinkExternal /> &nbsp;
-          {"View Abstract"}
-        </Button>
-        <br></br>
-        <br></br>
-        <Button variant="primary" href={props.link} target="_blank">
-          <BiLinkExternal /> &nbsp;
-          {"View Poster"}
-        </Button>
+      <br></br>
         
       </Card.Body>
     </Card>
   );
 }
-export default ProjectCards;
+export default ProjectCards1;

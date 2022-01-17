@@ -473,6 +473,11 @@ html {
   height: auto !important;
 }
 
+.project-card-title{
+  color: var(--imp-text-color) !important;
+  text-align: center;
+}
+
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
@@ -480,6 +485,7 @@ html {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  padding-bottom: 10px;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -534,11 +540,13 @@ html {
   color: #fff !important;
   background-color: #623686 !important;
   border-color: #623686 !important;
+  margin-bottom: -10px;
+  align-items: center;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
+  background-color: #8a5dbdd7 !important;
   border-color: #6d20c5d7 !important;
 }
 .btn:focus {
@@ -548,9 +556,9 @@ html {
 .project-heading {
   text-align: center;
   color: white !important;
-  font-size: 2.3em !important;
-  font-weight: 500 !important;
-  padding-top: 10px !important;
+  font-size: 2em !important;
+  font-weight: 700 !important;
+  padding-top: -1px !important;
 }
 .project-subheading {
   text-align: center;
