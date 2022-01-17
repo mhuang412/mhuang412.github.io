@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import ProjectCard1 from "./ProjectCards1";
 import Particle from "../Particle";
-
 import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -32,7 +31,7 @@ function Projects() {
               title="Fabrication & Optimization of Titania Dioxide Nanotubes"
               subtitle="June 2019 - September 2019"
               description="Synthesized and determined optimization of ordered titania nanotubes via two-step anodic oxidation process."
-              link=""
+              link="https://raw.githubusercontent.com/mhuang412/mhuang412.github.io/master/src/Assets/SSU_Abstract.pdf"
               link2="https://raw.githubusercontent.com/mhuang412/mhuang412.github.io/master/src/Assets/SSU_Poster.pdf"
             />
           </Col>
@@ -43,7 +42,8 @@ function Projects() {
               title="Orbit Determination of Asteroid 2007KN4"
               subtitle="June 2019 - July 2019"
               description= "Determined the orbital elements of Asteroid 355256 (KN4) via the Method of Gauss (aperture photometry, astrometry, localized surface plasmon resonance with flattening, and linear regression). Integrated Monte Carlo simulations and differential correction."
-              link="https://github.com/soumyajit4419/Editor.io"
+              link="https://raw.githubusercontent.com/mhuang412/mhuang412.github.io/master/src/Assets/SSP_Abstract.pdf"
+              link2="https://raw.githubusercontent.com/mhuang412/mhuang412.github.io/master/src/Assets/SSP_Poster.pdf"
             />
           </Col>
        
