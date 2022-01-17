@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Resume from "./components/Resume/Resume";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
@@ -32,7 +32,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
-          <Route path="/resume" component={Resume} />
+          <Route path="/education" component={Resume} />
         </Switch>
         <Footer />
       </div>

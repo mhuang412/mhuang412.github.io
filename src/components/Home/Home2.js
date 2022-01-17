@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -10,6 +10,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 import DataSciIcons from "./Techstack2";
+import AstroIcons from "./Techstack3";
 import Particle from "../Particle";
 
 function Home2() {
@@ -44,7 +45,7 @@ function Home2() {
             </p>            
           
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvatar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
@@ -61,6 +62,12 @@ function Home2() {
         <br />
         <h1 className="project-subheading">
           <strong className="purple">Data Science & Analysis </strong>
+        </h1>
+
+        <DataSciIcons />
+        <br />
+        <h1 className="project-subheading">
+          <strong className="purple">Physics & Astronomy </strong>
         </h1>
 
         <DataSciIcons />
@@ -84,16 +91,6 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/michelle_h2020"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
                   href="https://www.linkedin.com/in/michelle-j-huang/"
                   target="_blank"
                   rel="noreferrer"
@@ -104,14 +101,16 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/m_huangg/"
+                  href="https://twitter.com/michelle_h2020"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiOutlineTwitter />
                 </a>
               </li>
+           
+              
             </ul>
           </Col>
         </Row>
