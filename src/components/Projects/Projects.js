@@ -32,10 +32,11 @@ function Projects() {
               title="Fabrication & Optimization of Titania Dioxide Nanotubes"
               subtitle="June 2019 - September 2019"
               description="Synthesized and determined optimization of ordered titania nanotubes via two-step anodic oxidation process."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              link=""
+              link2="https://raw.githubusercontent.com/mhuang412/mhuang412.github.io/master/src/Assets/SSU_Poster.pdf"
             />
           </Col>
-
+         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
