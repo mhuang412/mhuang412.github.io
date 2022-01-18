@@ -13,7 +13,7 @@ function ContactCard() {
     <Container fluid className="contact-section" id="about">
     <Particle />
     <Container>
-          
+        
       <Row>
         <Col md={12} className="contact-social">
          
