@@ -1,14 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { BiLinkExternal } from "react-icons/bi";
 
 function ProjectCards1(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title className="project-card-title">
+        <Card.Title className="project-card-title1">
           {props.title}
         </Card.Title>
         <Card.Subtitle style ={{ textAlign: "center"}}>

@@ -1,17 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Particle from "../Particle";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
-import DataSciIcons from "./Techstack2";
-import AstroIcons from "./Techstack3";
-import Particle from "../Particle";
+import DataSciIcons from "./DataSciIcons";
+import LanguageIcons from "./Languages";
+import WebDevIcons from "./WebDevIcons.js";
+import AstroIcons from "./AstroIcons";
 
 function Home2() {
   return (
@@ -61,16 +61,26 @@ function Home2() {
         </h1>
         <br />
         <h1 className="project-subheading">
+          <strong className="purple">Languages </strong>
+        </h1>
+        <LanguageIcons/>
+
+        <h1 className="project-subheading">
           <strong className="purple">Data Science & Analysis </strong>
         </h1>
-
         <DataSciIcons />
-        <br />
+
+        <h1 className="project-subheading">
+          <strong className="purple">Web Development </strong>
+        </h1>
+        <WebDevIcons />
+
         <h1 className="project-subheading">
           <strong className="purple">Physics & Astronomy </strong>
         </h1>
-
-        <DataSciIcons />
+        <AstroIcons />
+        
+        <br/>
 
         <Row>
           <Col md={12} className="home-about-social">

@@ -339,7 +339,8 @@ html {
 .tech-icons {
   font-size: 3em !important;
   margin: 15px !important;
-  padding: 5px !important;
+  padding-top: 2px;
+  padding-bottom: 8px;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
@@ -510,6 +511,12 @@ html {
   color: var(--imp-text-color) !important;
   text-align: center;
 }
+/* for crypto */
+.project-card-title1{
+  color: var(--imp-text-color) !important;
+  text-align: center;
+  margin-top: -50px;
+}
 
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
@@ -598,7 +605,7 @@ html {
   color: white !important;
   font-size: 1.5em !important;
   font-weight: 500 !important;
-  padding-top: 10px !important;
+  padding-top: 0px !important;
 }
 
 @media (max-width: 767px) {

@@ -10,20 +10,15 @@ function DataSciIcons() {
       <Col xs={4} md={1} className="tech-icons">
         <Icon icon="logos:tensorflow" />   
       </Col>
+      
       <Col xs={4} md={1} className="tech-icons">
-        <Icon icon="logos:python" />
-      </Col>
-      <Col xs={4} md={1} className="tech-icons">
-        <Icon icon="simple-icons:pandas" width="70" height="70" />
+        <Icon icon="simple-icons:pandas" color="#3776ab" />
       </Col>
       <Col xs={4} md={1} className="tech-icons">
         <Icon icon="logos:numpy" />
       </Col>
       <Col xs={4} md={1} className="tech-icons">
         <Icon icon="simple-icons:scikitlearn" />
-      </Col>
-      <Col xs={4} md={1} className="tech-icons">
-        <Icon icon="carbon:logo-r-script" />
       </Col>
       <Col xs={4} md={1} className="tech-icons">
         <Icon icon="logos:opencv" />
@@ -33,9 +28,6 @@ function DataSciIcons() {
       </Col>
       <Col xs={4} md={1} className="tech-icons">
         <Icon icon="vscode-icons:file-type-jupyter" />
-      </Col>
-      <Col xs={4} md={1} className="tech-icons">
-        <Icon icon="vscode-icons:file-type-excel" />
       </Col>
     </Row>
   );

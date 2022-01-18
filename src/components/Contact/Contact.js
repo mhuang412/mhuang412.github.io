@@ -24,23 +24,22 @@ function Contact() {
             <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "center" }}>
            The best way to contact me is through email <br/> 
-          
-            <br>
-           </br> or any of the socials below:
+           <b className="purple"> mh52@princeton.edu </b> <br/>
+           or any of the socials below:
                      
           </p>
         </blockquote>
             <ContactCard />
 
             <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "An investment in knowledge pays the best interest."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Benjamin Franklin</footer>
 
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "10px", paddingBottom: "50px" }}
+            style={{ paddingTop: "0px", paddingBottom: "50px" }}
             className="contact-img"
           >
             <img src={contactImg} alt="contact" className="img-fluid" />
