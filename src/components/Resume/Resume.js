@@ -36,7 +36,7 @@ function Resume() {
             <Resumecontent
               title="Investment Team Intern" 
               subtitle="Deerpath Capital Management | New York City, NY"
-              date="February 2021 - present"
+              date="December 2020 - January 2021"
               content={["Participated in investment committee conferences to discuss debt financing deals", 
               "Worked with investment professionals to gain insight into strong investment models"]}
             />
